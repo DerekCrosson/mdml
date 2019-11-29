@@ -88,7 +88,7 @@ fn print_short_banner() {
 
 fn print_long_banner() {
 	print_short_banner();
-	println!("Written by: {}\nHomepage: {}\nUsage: MDML <file_to_convert>.md\n", 
+	println!("Written by: {}\nHomepage: {}\nUsage: mdml <file_to_convert>.md\n", 
 		env!("CARGO_PKG_AUTHORS"), 
 		env!("CARGO_PKG_HOMEPAGE")
   	);
