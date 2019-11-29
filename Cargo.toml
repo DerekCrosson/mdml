@@ -1,0 +1,11 @@
+[package]
+name = "mdml"
+version = "0.1.0"
+authors = ["Derek Crosson <derek@designcafe.co.za>"]
+edition = "2018"
+description = "A tool to compile markdown to HTML."
+homepage = "derekcrosson.co.za"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
